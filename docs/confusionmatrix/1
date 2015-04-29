@@ -1,0 +1,71 @@
+
+Datos de ejecución:
+
+archivo: gold.1.tcs
+entrenamiento del clasificador: 0.5%
+cantidad de tweets para testing: 100
+
+train_sents=corpus[:size]
+gold_test_sents=corpus[size+1:size+100]
+
+SE MUESTRAN SÓLO LA CANTIDAD DE FALSOS NEGATIVOS PARA CADA WORD-POS-CHUNK
+------------------------------------------------------------
+
+Para: del_IN_I-LOCATION : es: del_IN_B-PREPP   2
+-------------------------------------------------_
+Para: frente_RB_I-LOCATION : es: frente_RB_B-ADVBP   1
+-------------------------------------------------_
+Para: río_NN_I-LOCATION : es: río_NN_B-LOCATION   2
+-------------------------------------------------_
+Para: afluencia_NN_I-LOCATION : es: afluencia_NN_B-EVENT   1
+-------------------------------------------------_
+Para: calzada_NN_B-LOCATION : es: calzada_NN_B-EVENT   1
+-------------------------------------------------_
+Para: retrasos_NN_I-LOCATION : es: retrasos_NN_I-EVENT   1
+-------------------------------------------------_
+Para: plaza_NN_B-LOCATION : es: plaza_NN_I-LOCATION   1
+-------------------------------------------------_
+Para: los_DT_I-LOCATION : es: los_DT_B-LOCATION   4
+-------------------------------------------------_
+Para: de_IN_I-LOCATION : es: de_IN_B-PREPP   9
+-------------------------------------------------_
+Para: las_DT_I-LOCATION : es: las_DT_B-LOCATION   2
+-------------------------------------------------_
+Para: poniente_NN_B-LOCATION : es: poniente_NN_B-NOUNP   1
+-------------------------------------------------_
+Para: valencia_NNP_B-LOCATION : es: valencia_NNP_I-LOCATION   3
+-------------------------------------------------_
+Para: y_CC_I-LOCATION : es: y_CC_O   1
+-------------------------------------------------_
+Para: norte_NN_I-LOCATION : es: norte_NN_I-NOUNP   1
+-------------------------------------------------_
+Para: vehicular_JJ_I-LOCATION : es: vehicular_JJ_I-EVENT   1
+-------------------------------------------------_
+Para: san_JJ_I-LOCATION : es: san_JJ_B-LOCATION   1
+-------------------------------------------------_
+Para: al_IN_I-LOCATION : es: al_IN_B-PREPP   1
+-------------------------------------------------_
+Para: caminos_NN_I-LOCATION : es: caminos_NN_I-NOUNP   1
+-------------------------------------------------_
+Para: río_NN_B-LOCATION : es: río_NN_I-LOCATION   1
+-------------------------------------------------_
+Para: sur_NN_I-LOCATION : es: sur_NN_B-NOUNP   1
+-------------------------------------------------_
+Para: guárico_NN_B-LOCATION : es: guárico_NN_B-EVENT   1
+-------------------------------------------------_
+Para: paseo_NN_B-LOCATION : es: paseo_NN_I-LOCATION   1
+-------------------------------------------------_
+Para: avenida_NNP_B-LOCATION : es: avenida_NNP_I-LOCATION   2
+-------------------------------------------------_
+Para: carabobo_NNP_B-LOCATION : es: carabobo_NNP_I-LOCATION   1
+-------------------------------------------------_
+Para: dos_CD_I-LOCATION : es: dos_CD_B-NOUNP   1
+-------------------------------------------------_
+Para: san_JJ_B-LOCATION : es: san_JJ_I-LOCATION   1
+-------------------------------------------------_
+Para: la_DT_I-LOCATION : es: la_DT_B-LOCATION   5
+-------------------------------------------------_
+Para: la_DT_B-LOCATION : es: la_DT_B-NOUNP   1
+Para: la_DT_B-LOCATION : es: la_DT_I-LOCATION   1
+-------------------------------------------------_
+
